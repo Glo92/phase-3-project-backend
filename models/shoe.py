@@ -1,7 +1,7 @@
 from db import cursor, conn
 
-class Shoes:
-    TABLE_NAME = "shoes"
+class Shoe:
+    TABLE_NAME = "shoe"
     def __init__(self,name,image,description,price,category_id):
         self.id = None
         self.name = name
@@ -74,7 +74,7 @@ class Shoes:
 
 
 
-Shoes.create_table()
+Shoe.create_table()
 
 # shoes = [
 #     ("Casual Sneaker","https://backyardshoez.co.ke/wp-content/uploads/2024/04/DSC_4061-450x450.webp", "A stylish casual sneaker", 49.99, 2),

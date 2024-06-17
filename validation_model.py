@@ -6,3 +6,9 @@ class ShoeModel(BaseModel):
     description: str
     price: float
     category_id: int
+
+class UserModel(BaseModel):
+    name: str
+    phone: str
+    email: str
+    password: str
